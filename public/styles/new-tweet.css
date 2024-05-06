@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  height: 30px;
+}
+
+.button-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 3px solid;
+  padding: 10px;
+}
+
+.submit-button {
+  background-color: #4056A1;
+  color: #fff;
+  font-family: "Bungee";
+  font-size: 0.75em;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.counter {
+  font-family: "Bungee";
+}
+
+div label {
+  font-weight: bold;
+}
+
+.negative {
+  color: red;
+}
+
+.fa-solid.fa-triangle-exclamation {
+  color: red;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.over-140 {
+  border: 5px solid red;
+  text-align: center;
+  display: none;
+}
+
+.no-text {
+  border: 5px solid red;
+  text-align: center;
+  display: none;
+}
+
+.opacity {
+  opacity: 1;
+}
